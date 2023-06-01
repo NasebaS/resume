@@ -13,6 +13,7 @@ import phone from "./phone.png";
 import location from "./location.png";
 import gmail1 from "./gmail1.png";
 import githubid from "./githubid.png";
+import photo from "./Photo.jpeg"
 
 
 
@@ -20,7 +21,7 @@ function App() {
   return (
     <div className="maindiv">
       <div className='firstmainbox'>
-      <div className='firstdiv'><h3>photo</h3>
+      <div className='firstdiv'><img src={photo} className="photo" width="150px" heigth="25px"/>
       <hr></hr>
       <ul>
       <li><span className="imgandp"><img src={phone}/><p>8870216645</p></span></li>

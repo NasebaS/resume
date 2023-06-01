@@ -91,3 +91,8 @@ align-items: center;
 .softskills ul li{
   list-style: none;
 }
+.photo{
+  margin-left:200px;
+  padding:2px;
+  border-radius: 40%;
+}
