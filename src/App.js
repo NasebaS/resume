@@ -23,10 +23,10 @@ function App() {
       <div className='firstdiv'><h3>photo</h3>
       <hr></hr>
       <ul>
-      <li><div className="imgandp"><img src={phone}/><p>8870216645</p></div></li>
-      <li><div className="imgandp"><a href="#"><img src={gmail1}/><p>naseba.hamee@gmail.com</p></a></div></li>
-      <li><div className="imgandp"><img src={location}/><p>Salem,Tamilnadu</p></div></li>
-      <li><div className="imgandp"><a href="https://github.com/NasebaS"><img src={githubid}/><p>Naseba Github</p></a></div></li>
+      <li><span className="imgandp"><img src={phone}/><p>8870216645</p></span></li>
+      <li><span className="imgandp1"><img src={gmail1}/><p>naseba.hamee@gmail.com</p></span></li>
+      <li><span className="imgandp2"><img src={location}/><p>Salem,Tamilnadu</p></span></li>
+      <li><span className="imgandp3"><img src={githubid}/><p>Naseba Github</p></span></li>
       </ul>
       </div>
       <hr></hr>
