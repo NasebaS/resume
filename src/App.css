@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
+.maindiv{
+display:flex;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+height:100vh;
+margin:20px;
+padding:20px;
+font-size: large;
+font-family: sans-serif;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.firstmainbox{
+  width:30%;
+  background-color:rgb(37, 99, 146);
+  color:rgb(255, 255, 255);
+}
+.seconddiv{
+ 
+    width:70%;
+  background-color: rgb(255, 255, 255);
+}
+.seconddiv h5{
+  color:rgb(37, 99, 146);
+}
+.technologies ul{
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+}
+.skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.technologies ul li a{
+text-decoration: none;
+color:darkturquoise;
+font-size:25px;
+}
+.sqlimage{
+  font-size:400px;
+  font-family: sans-serif;
+}
+.firstdiv ul li{
+  list-style: none;
   color: white;
-}
+  
 
-.App-link {
-  color: #61dafb;
 }
+.firstdiv ul li a{
+  color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+/* .firstdiv img{
+  margin: 2px;
+  padding: 2px;
+} */
+.imgandp{
+  margin:2px;
+  padding: 2px;
+  display:flex;
+  
 }
