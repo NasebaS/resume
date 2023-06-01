@@ -29,8 +29,8 @@ function App() {
       <li><span className="imgandp3"><img src={githubid}/><p>Naseba Github</p></span></li>
       </ul>
       </div>
-      <hr></hr>
-      <div className='technologies'><p>Technologies</p>
+      <br/><br/>
+      <div className='technologies'><p>Technologies</p> <hr></hr>
       <ul>
         <li>
         <img src={htmllogosmall}/>
@@ -45,10 +45,13 @@ function App() {
       </ul>
 
       </div>
+     <br/><br/>
+      <div className="softskills">Soft Skills</div>
       <hr></hr>
-      <div>Education</div>
-      <hr></hr>
-      <div className='skills'><p>Skills</p>
+      <ul><li>Go Getter</li>
+      <li>Optimist</li>
+      <li>Quick Learning</li></ul><br/><br/>
+      <div className='technicalskills'><p>Technical Skills</p><hr></hr>
         <ul>
         <li >HTML</li>
         <li>CSS</li>
@@ -56,21 +59,55 @@ function App() {
         <li>React JS</li>
         <li>MUI</li>
         <li>Bootstrap</li>
+        <li>SQL</li>
       </ul>
       </div>
-      <hr></hr>
+      
       </div>
       <div className='seconddiv'>
       <h2>Front End Developer</h2>
       <hr></hr>
-      <br></br>
+      <h3>Naseba Sathurudeen</h3>
+      <p>A passionate Frontend web Developer having
+an experience of building Web applications
+with HTML, CSS, JavaScript, Reactjs,MUI, Bootstrap
+and some other cool libraries and other
+frameworks.
+</p>
+      
+     
       <br></br>
       <br/>
       <h5>Projects</h5>
-      <hr></hr><br/><br/><br/>
+      <hr></hr>
+      <p><b>Meesho:</b> Meesho is India's largest and most
+trusted marketplace for Resellers, who sell
+products online through WhatsApp and FacebookTrusted by over 50,000 Resellers.</p>
+<p><b>Features:</b> Shop, Cart, Update Cart,Billing,Checkout and Delete
+functionality is developed.</p>
+<p><b>Techstack:</b> HTML, CSS, MUI, JavaScript, React JS</p>
+      
+      <br></br>
+      <br/>
+      <h5>Education</h5><hr></hr>
+      <ul>
+        <li>B.E(CSE),</li>
+        <li>Vivekanandha Institute of Engineering and Technology for women,</li>
+
+        <li>Namakkal.</li><br/>
+        <li>HSC,</li>
+        <li>Vivekanandha Vidhya Bhavan Higher Secondary School,</li>
+        <li>Namakkal.</li><br/>
+        <li>SSLC,</li>
+        <li>Vivekanandha Vidhya Bhavan Higher Secondary School,</li>
+        <li>Namakkal.</li><br/>
+
+      </ul>
+      
+      <br/>
       <h5>Work Experience</h5>
       <hr></hr>
-
+      <ul><li>Team Lead at Focus Edumatics Pvt Ltd</li></ul>
       </div>
     </div>
   );

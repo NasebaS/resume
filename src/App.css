@@ -18,15 +18,21 @@ font-family: sans-serif;
     width:70%;
   background-color: rgb(255, 255, 255);
 }
-.seconddiv h5{
+.seconddiv h2{
   color:rgb(37, 99, 146);
+}
+.seconddiv h3{
+  color:rgb(111, 182, 236);
+}
+.seconddiv p{
+  color: rgb(108, 165, 209);
 }
 .technologies ul{
   list-style: none;
   display: flex;
   justify-content: space-evenly;
 }
-.skills ul {
+.technicalskills ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
@@ -46,8 +52,9 @@ font-size:25px;
   
 
 }
-.firstdiv ul li a{
-  color: white;
+.firstdiv ul li p{
+  margin:2px;
+  padding:2px;
 
 }
 /* .firstdiv img{
@@ -58,21 +65,29 @@ font-size:25px;
   margin:2px;
   padding: 2px;
   display:flex;
-  
+  align-items: center;
 }
 .imgandp2{
   margin: 2px;
   padding: 2px;
   display: flex;
+  align-items: center;
 }
 .imgandp3{
   margin: 2px;
   padding: 2px;
   display: flex;
+  align-items: center;
 }
 .imgandp1{
   margin: 2px;
   padding: 2px;
   display: flex;
-
+align-items: center;
+}
+.seconddiv ul li{
+  list-style: none;
+}
+.softskills ul li{
+  list-style: none;
 }
